@@ -7,6 +7,9 @@ import BottomNav from './components/BottomNav';
 
 // PUBLIC_INTERFACE
 function App() {
+  // Fix usage of PUBLIC_URL by referencing it via process.env, or remove if not used
+  // If you need public url, use: const publicUrl = process.env.PUBLIC_URL;
+
   return (
     <div className="recipehub-app">
       <header>
